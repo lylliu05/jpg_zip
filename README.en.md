@@ -1,36 +1,46 @@
-# jpg_zip
+# Image Compression Tool
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+A Python tool for compressing JPG/PNG images with GUI interface.
 
-#### Software Architecture
-Software architecture description
+## Key Features
+- Single file compression
+- Batch folder processing
+- Quality adjustment (0-100)
+- Target file size setting
+- Advanced options:
+  - Scaling (10-100%)
+  - Partial grayscale
+  - Color reduction
+  - Extreme compression mode
+- Size estimation before compression
+- Progress display
 
-#### Installation
+## Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### Prerequisites
+- Python 3.x with tkinter (usually included)
 
-#### Instructions
+### Install Dependencies
+```bash
+pip install pillow
+```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Usage
+1. Select mode (Single File/Folder)
+2. Choose input path
+3. Set output path (optional)
+4. Adjust compression quality
+5. Set target size (optional)
+6. Configure advanced options
+7. Click "Start Compression"
 
-#### Contribution
+## Version Info
+- Current: v1.1.1
+- Release Date: 2023-06-15
+- License: MIT
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+## Contribution
+Welcome to submit issues and PRs.
 
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## Contact
+For questions or suggestions, please contact: [your@email.com](mailto:your@email.com)
